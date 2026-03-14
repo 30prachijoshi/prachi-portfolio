@@ -132,3 +132,40 @@ width:200px;
 }
 
 }
+
+.menu-toggle{
+display:none;
+font-size:28px;
+cursor:pointer;
+color:white;
+}
+
+.nav-links{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+/* Mobile menu */
+@media (max-width:768px){
+
+.menu-toggle{
+display:block;
+text-align:center;
+padding:10px;
+background:#222;
+}
+
+.nav-links{
+display:none;
+flex-direction:column;
+text-align:center;
+background:#222;
+}
+
+.nav-links a{
+display:block;
+padding:10px;
+}
+
+}
