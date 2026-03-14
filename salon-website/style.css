@@ -1,0 +1,58 @@
+body{
+margin:0;
+font-family:Arial;
+text-align:center;
+background:#fff;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9");
+background-size:cover;
+color:white;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:45px;
+}
+
+.hero button{
+padding:12px 30px;
+background:#ff4d6d;
+border:none;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+.services{
+padding:60px;
+background:#fff5f7;
+}
+
+.container{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+width:220px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about{
+padding:60px;
+background:white;
+}
+
+footer{
+background:#222;
+color:white;
+padding:20px;
+}
