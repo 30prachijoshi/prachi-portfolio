@@ -36,10 +36,16 @@ flex-wrap:wrap;
 
 .card{
 background:white;
-padding:25px;
-width:220px;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
+padding:20px;
+width:260px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 30px rgba(0,0,0,0.2);
 }
 
 button{
@@ -74,8 +80,13 @@ padding:12px 25px;
 background:#4a6cf7;
 color:white;
 text-decoration:none;
-border-radius:6px;
+border-radius:30px;
 font-weight:bold;
+transition:0.3s;
+}
+
+.contact-btn:hover{
+background:#2f4ed8;
 }
 
 .whatsapp-float{
@@ -133,11 +144,20 @@ width:200px;
 
 }
 
+nav{
+background:#222;
+padding:10px;
+position:relative;
+}
+
 .menu-toggle{
 display:none;
 font-size:28px;
 cursor:pointer;
 color:white;
+position:absolute;
+left:15px;
+top:10px;
 }
 
 .nav-links{
@@ -146,26 +166,44 @@ justify-content:center;
 gap:20px;
 }
 
-/* Mobile menu */
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+/* Mobile */
 @media (max-width:768px){
 
 .menu-toggle{
 display:block;
-text-align:center;
-padding:10px;
-background:#222;
 }
 
 .nav-links{
 display:none;
 flex-direction:column;
-text-align:center;
 background:#222;
+margin-top:40px;
 }
 
 .nav-links a{
-display:block;
 padding:10px;
+border-top:1px solid #444;
 }
 
+}
+
+.hero{
+background:linear-gradient(135deg,#4a6cf7,#6a8cff);
+color:white;
+padding:100px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
 }
