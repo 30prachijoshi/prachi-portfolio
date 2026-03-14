@@ -1,0 +1,50 @@
+body{
+margin:0;
+font-family:Arial;
+text-align:center;
+background:#fffaf5;
+}
+
+.hero{
+background:#6b3e26;
+color:white;
+padding:100px 20px;
+}
+
+.hero button{
+padding:10px 25px;
+background:#ff914d;
+border:none;
+color:white;
+border-radius:5px;
+}
+
+.menu{
+padding:60px;
+}
+
+.container{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:25px;
+width:220px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about{
+padding:60px;
+background:#f8f8f8;
+}
+
+footer{
+background:#222;
+color:white;
+padding:20px;
+}
