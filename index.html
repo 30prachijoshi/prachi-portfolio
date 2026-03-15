@@ -13,7 +13,8 @@
 <p>Web Developer | BSc IT Graduate</p>
 </header>
 
-<nav>
+<nav class="navbar">
+
 <div class="menu-toggle" onclick="toggleMenu()">☰</div>
 
 <div class="nav-links" id="navLinks">
@@ -22,6 +23,7 @@
 <a href="#projects">Projects</a>
 <a href="#contact">Contact</a>
 </div>
+
 </nav>
 
 <section id="about">
@@ -100,15 +102,20 @@
 </footer>
 
 <script>
-function toggleMenu(){
-var menu=document.getElementById("navLinks");
 
-if(menu.style.display==="block"){
-menu.style.display="none";
-}else{
-menu.style.display="block";
+function toggleMenu(){
+
+var menu = document.getElementById("navLinks");
+
+if(menu.style.display === "block"){
+menu.style.display = "none";
 }
+else{
+menu.style.display = "block";
 }
+
+}
+
 </script>
 
 </body>
